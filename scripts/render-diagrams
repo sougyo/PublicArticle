@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+repo_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
+diagram_dir="$repo_dir/articles/category-theory/diagrams"
+
+for tool in docker pdftocairo; do
+  if ! command -v "$tool" >/dev/null 2>&1; then
+    echo "Required command not found: $tool" >&2
+    exit 1
+  fi
+done
+
+build_dir="$(mktemp -d "${TMPDIR:-/tmp}/publicarticle-diagrams.XXXXXX")"
+trap 'rm -rf -- "$build_dir"' EXIT
+cp "$diagram_dir"/*.tex "$build_dir/"
+
+docker run --rm --user "$(id -u):$(id -g)" \
+  -v "$build_dir:/work" -w /work \
+  "${TEX_DOCKER_IMAGE:-paperist/texlive-ja:latest}" \
+  sh -c '
+    for tex in diagram-*.tex; do
+      if ! pdflatex -interaction=nonstopmode -halt-on-error "$tex" > "$tex.build.log"; then
+        cat "$tex.build.log" >&2
+        exit 1
+      fi
+    done
+  '
+
+for pdf in "$build_dir"/diagram-*.pdf; do
+  name="$(basename -- "${pdf%.pdf}")"
+  pdftocairo -svg "$pdf" "$diagram_dir/$name.svg"
+done
+
+echo "Updated diagrams in $diagram_dir"

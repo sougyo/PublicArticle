@@ -1,0 +1,49 @@
+\documentclass[border=6pt]{standalone}
+\usepackage{amsmath,amssymb,mathtools,tikz-cd}
+
+\DeclareMathOperator{\Ob}{Ob}
+\DeclareMathOperator{\Mor}{Mor}
+\DeclareMathOperator{\Hom}{Hom}
+\DeclareMathOperator{\Nat}{Nat}
+\DeclareMathOperator{\dom}{dom}
+\DeclareMathOperator{\cod}{cod}
+\DeclareMathOperator*{\colim}{colim}
+\DeclareMathOperator{\Id}{id}
+\newcommand{\cat}[1]{\mathcal{#1}}
+\newcommand{\CC}{\cat{C}}
+\newcommand{\DD}{\cat{D}}
+\newcommand{\EE}{\cat{E}}
+\newcommand{\JJ}{\cat{J}}
+\newcommand{\op}{^{\mathrm{op}}}
+\newcommand{\Set}{\mathbf{Set}}
+\newcommand{\Grp}{\mathbf{Grp}}
+\newcommand{\Ab}{\mathbf{Ab}}
+\newcommand{\Mon}{\mathbf{Mon}}
+\newcommand{\Top}{\mathbf{Top}}
+\newcommand{\Vect}{\mathbf{Vect}}
+\newcommand{\Mod}{\mathbf{Mod}}
+\newcommand{\Cat}{\mathbf{Cat}}
+\newcommand{\id}{\mathrm{id}}
+\newcommand{\yo}{\textbf{よ}}
+\newcommand{\adj}{\dashv}
+\newcommand{\iso}{\cong}
+\newcommand{\To}{\longrightarrow}
+\newcommand{\ToR}{\Longrightarrow}
+\newcommand{\defeq}{\coloneqq}
+
+\begin{document}
+$
+\begin{tikzcd}[column sep=-1.0em, row sep=huge]
+  & \bigl((A \otimes B) \otimes C\bigr) \otimes D
+    \arrow[dl, "\alpha_{A,B,C} \otimes \id_D"']
+    \arrow[dr, "\alpha_{A \otimes B, C, D}"] & \\
+  \bigl(A \otimes (B \otimes C)\bigr) \otimes D
+    \arrow[d, "\alpha_{A, B \otimes C, D}"'] & &
+  (A \otimes B) \otimes (C \otimes D)
+    \arrow[d, "\alpha_{A,B,C \otimes D}"] \\
+  A \otimes \bigl((B \otimes C) \otimes D\bigr)
+    \arrow[rr, "\id_A \otimes \alpha_{B,C,D}"'] & &
+  A \otimes \bigl(B \otimes (C \otimes D)\bigr)
+\end{tikzcd}
+$
+\end{document}

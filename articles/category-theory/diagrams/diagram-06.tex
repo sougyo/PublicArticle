@@ -1,0 +1,42 @@
+\documentclass[border=6pt]{standalone}
+\usepackage{amsmath,amssymb,mathtools,tikz-cd}
+
+\DeclareMathOperator{\Ob}{Ob}
+\DeclareMathOperator{\Mor}{Mor}
+\DeclareMathOperator{\Hom}{Hom}
+\DeclareMathOperator{\Nat}{Nat}
+\DeclareMathOperator{\dom}{dom}
+\DeclareMathOperator{\cod}{cod}
+\DeclareMathOperator*{\colim}{colim}
+\DeclareMathOperator{\Id}{id}
+\newcommand{\cat}[1]{\mathcal{#1}}
+\newcommand{\CC}{\cat{C}}
+\newcommand{\DD}{\cat{D}}
+\newcommand{\EE}{\cat{E}}
+\newcommand{\JJ}{\cat{J}}
+\newcommand{\op}{^{\mathrm{op}}}
+\newcommand{\Set}{\mathbf{Set}}
+\newcommand{\Grp}{\mathbf{Grp}}
+\newcommand{\Ab}{\mathbf{Ab}}
+\newcommand{\Mon}{\mathbf{Mon}}
+\newcommand{\Top}{\mathbf{Top}}
+\newcommand{\Vect}{\mathbf{Vect}}
+\newcommand{\Mod}{\mathbf{Mod}}
+\newcommand{\Cat}{\mathbf{Cat}}
+\newcommand{\id}{\mathrm{id}}
+\newcommand{\yo}{\textbf{よ}}
+\newcommand{\adj}{\dashv}
+\newcommand{\iso}{\cong}
+\newcommand{\To}{\longrightarrow}
+\newcommand{\ToR}{\Longrightarrow}
+\newcommand{\defeq}{\coloneqq}
+
+\begin{document}
+$
+\begin{tikzcd}[column sep=small, row sep=large]
+  & N \arrow[d, "u", dashed] \arrow[ddl, bend right=25, "\psi_i"'] \arrow[ddr, bend left=25, "\psi_j"] & \\
+  & L \arrow[dl, "\varphi_i"] \arrow[dr, "\varphi_j"'] & \\
+  Di \arrow[rr, "D(v)"'] & & Dj
+\end{tikzcd}
+$
+\end{document}
