@@ -45,9 +45,18 @@ body {
 }
 
 .commutative-diagram img {
-  width: auto;
-  max-width: 100%;
+  max-width: none;
   height: auto;
+}
+
+.commutative-diagram .quarto-figure {
+  display: block;
+}
+
+.commutative-diagram figure {
+  width: max-content;
+  min-width: 100%;
+  margin: 0;
 }
 
 @media (max-width: 575px) {

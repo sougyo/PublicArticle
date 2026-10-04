@@ -116,7 +116,7 @@ $$ {#eq-naturality}
 
 ::: {.commutative-diagram}
 
-![自然変換の自然性](diagrams/diagram-01.svg){fig-alt="自然変換の自然性"}
+![自然変換の自然性](diagrams/diagram-01.svg){fig-alt="自然変換の自然性" width="233"}
 
 :::
 
@@ -154,7 +154,7 @@ $$
 
 ::: {.commutative-diagram}
 
-![普遍射の一意存在](diagrams/diagram-02.svg){fig-alt="普遍射の一意存在"}
+![普遍射の一意存在](diagrams/diagram-02.svg){fig-alt="普遍射の一意存在" width="267"}
 
 :::
 
@@ -213,7 +213,7 @@ $$
 
 ::: {.commutative-diagram}
 
-![米田の補題の自然性](diagrams/diagram-03.svg){fig-alt="米田の補題の自然性"}
+![米田の補題の自然性](diagrams/diagram-03.svg){fig-alt="米田の補題の自然性" width="283"}
 
 :::
 
@@ -330,7 +330,7 @@ $$ {#eq-triangle}
 
 ::: {.commutative-diagram}
 
-![随伴の三角等式](diagrams/diagram-04.svg){fig-alt="随伴の三角等式"}
+![随伴の三角等式](diagrams/diagram-04.svg){fig-alt="随伴の三角等式" width="433"}
 
 :::
 
@@ -366,7 +366,7 @@ $$ {#eq-cone}
 
 ::: {.commutative-diagram}
 
-![錐の可換条件](diagrams/diagram-05.svg){fig-alt="錐の可換条件"}
+![錐の可換条件](diagrams/diagram-05.svg){fig-alt="錐の可換条件" width="192"}
 
 :::
 
@@ -390,7 +390,7 @@ $$ {#eq-cone}
 
 ::: {.commutative-diagram}
 
-![極限の普遍性](diagrams/diagram-06.svg){fig-alt="極限の普遍性"}
+![極限の普遍性](diagrams/diagram-06.svg){fig-alt="極限の普遍性" width="192"}
 
 :::
 
@@ -450,7 +450,7 @@ $$
 
 ::: {.commutative-diagram}
 
-![コンマ圏の射](diagrams/diagram-07.svg){fig-alt="コンマ圏の射"}
+![コンマ圏の射](diagrams/diagram-07.svg){fig-alt="コンマ圏の射" width="225"}
 
 :::
 
@@ -507,13 +507,13 @@ $$
 
 ::: {.commutative-diagram}
 
-![モノイドの結合律](diagrams/diagram-08.svg){fig-alt="モノイドの結合律"}
+![モノイドの結合律](diagrams/diagram-08.svg){fig-alt="モノイドの結合律" width="544"}
 
 :::
 
 ::: {.commutative-diagram}
 
-![モノイドの単位律](diagrams/diagram-09.svg){fig-alt="モノイドの単位律"}
+![モノイドの単位律](diagrams/diagram-09.svg){fig-alt="モノイドの単位律" width="401"}
 
 :::
 
@@ -547,7 +547,7 @@ $$
 
 ::: {.commutative-diagram}
 
-![テンソル積の普遍性](diagrams/diagram-10.svg){fig-alt="テンソル積の普遍性"}
+![テンソル積の普遍性](diagrams/diagram-10.svg){fig-alt="テンソル積の普遍性" width="271"}
 
 :::
 
@@ -609,7 +609,7 @@ $$
 
 ::: {.commutative-diagram}
 
-![モノイダル圏の五角形等式](diagrams/diagram-11.svg){fig-alt="モノイダル圏の五角形等式"}
+![モノイダル圏の五角形等式](diagrams/diagram-11.svg){fig-alt="モノイダル圏の五角形等式" width="547"}
 
 :::
 
@@ -621,7 +621,7 @@ $$
 
 ::: {.commutative-diagram}
 
-![モノイダル圏の三角形等式](diagrams/diagram-12.svg){fig-alt="モノイダル圏の三角形等式"}
+![モノイダル圏の三角形等式](diagrams/diagram-12.svg){fig-alt="モノイダル圏の三角形等式" width="390"}
 
 :::
 
@@ -652,7 +652,7 @@ $$
 
 ::: {.commutative-diagram}
 
-![モノイド対象の結合律](diagrams/diagram-13.svg){fig-alt="モノイド対象の結合律"}
+![モノイド対象の結合律](diagrams/diagram-13.svg){fig-alt="モノイド対象の結合律" width="591"}
 
 :::
 
@@ -662,7 +662,7 @@ $$
 
 ::: {.commutative-diagram}
 
-![モノイド対象の単位律](diagrams/diagram-14.svg){fig-alt="モノイド対象の単位律"}
+![モノイド対象の単位律](diagrams/diagram-14.svg){fig-alt="モノイド対象の単位律" width="399"}
 
 :::
 
@@ -696,7 +696,7 @@ $$
 
 ::: {.commutative-diagram}
 
-![モナドの結合律と単位律](diagrams/diagram-15.svg){fig-alt="モナドの結合律と単位律"}
+![モナドの結合律と単位律](diagrams/diagram-15.svg){fig-alt="モナドの結合律と単位律" width="505"}
 
 :::
 
