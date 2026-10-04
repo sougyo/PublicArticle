@@ -116,7 +116,10 @@ $$ {#eq-naturality}
 
 ::: {.commutative-diagram}
 
-![自然変換の自然性](diagrams/diagram-01.svg){fig-alt="自然変換の自然性" width="233"}
+<figure class="figure" style="display: block; width: max-content; min-width: 100%; margin: 0;">
+<img src="diagrams/diagram-01.svg" class="figure-img" alt="自然変換の自然性" width="233" style="width: 233px; max-width: none; height: auto;">
+<figcaption>自然変換の自然性</figcaption>
+</figure>
 
 :::
 
@@ -154,7 +157,10 @@ $$
 
 ::: {.commutative-diagram}
 
-![普遍射の一意存在](diagrams/diagram-02.svg){fig-alt="普遍射の一意存在" width="267"}
+<figure class="figure" style="display: block; width: max-content; min-width: 100%; margin: 0;">
+<img src="diagrams/diagram-02.svg" class="figure-img" alt="普遍射の一意存在" width="267" style="width: 267px; max-width: none; height: auto;">
+<figcaption>普遍射の一意存在</figcaption>
+</figure>
 
 :::
 
@@ -213,7 +219,10 @@ $$
 
 ::: {.commutative-diagram}
 
-![米田の補題の自然性](diagrams/diagram-03.svg){fig-alt="米田の補題の自然性" width="283"}
+<figure class="figure" style="display: block; width: max-content; min-width: 100%; margin: 0;">
+<img src="diagrams/diagram-03.svg" class="figure-img" alt="米田の補題の自然性" width="283" style="width: 283px; max-width: none; height: auto;">
+<figcaption>米田の補題の自然性</figcaption>
+</figure>
 
 :::
 
@@ -330,7 +339,10 @@ $$ {#eq-triangle}
 
 ::: {.commutative-diagram}
 
-![随伴の三角等式](diagrams/diagram-04.svg){fig-alt="随伴の三角等式" width="433"}
+<figure class="figure" style="display: block; width: max-content; min-width: 100%; margin: 0;">
+<img src="diagrams/diagram-04.svg" class="figure-img" alt="随伴の三角等式" width="433" style="width: 433px; max-width: none; height: auto;">
+<figcaption>随伴の三角等式</figcaption>
+</figure>
 
 :::
 
@@ -366,7 +378,10 @@ $$ {#eq-cone}
 
 ::: {.commutative-diagram}
 
-![錐の可換条件](diagrams/diagram-05.svg){fig-alt="錐の可換条件" width="192"}
+<figure class="figure" style="display: block; width: max-content; min-width: 100%; margin: 0;">
+<img src="diagrams/diagram-05.svg" class="figure-img" alt="錐の可換条件" width="192" style="width: 192px; max-width: none; height: auto;">
+<figcaption>錐の可換条件</figcaption>
+</figure>
 
 :::
 
@@ -390,7 +405,10 @@ $$ {#eq-cone}
 
 ::: {.commutative-diagram}
 
-![極限の普遍性](diagrams/diagram-06.svg){fig-alt="極限の普遍性" width="192"}
+<figure class="figure" style="display: block; width: max-content; min-width: 100%; margin: 0;">
+<img src="diagrams/diagram-06.svg" class="figure-img" alt="極限の普遍性" width="192" style="width: 192px; max-width: none; height: auto;">
+<figcaption>極限の普遍性</figcaption>
+</figure>
 
 :::
 
@@ -450,7 +468,10 @@ $$
 
 ::: {.commutative-diagram}
 
-![コンマ圏の射](diagrams/diagram-07.svg){fig-alt="コンマ圏の射" width="225"}
+<figure class="figure" style="display: block; width: max-content; min-width: 100%; margin: 0;">
+<img src="diagrams/diagram-07.svg" class="figure-img" alt="コンマ圏の射" width="225" style="width: 225px; max-width: none; height: auto;">
+<figcaption>コンマ圏の射</figcaption>
+</figure>
 
 :::
 
@@ -507,13 +528,19 @@ $$
 
 ::: {.commutative-diagram}
 
-![モノイドの結合律](diagrams/diagram-08.svg){fig-alt="モノイドの結合律" width="544"}
+<figure class="figure" style="display: block; width: max-content; min-width: 100%; margin: 0;">
+<img src="diagrams/diagram-08.svg" class="figure-img" alt="モノイドの結合律" width="544" style="width: 544px; max-width: none; height: auto;">
+<figcaption>モノイドの結合律</figcaption>
+</figure>
 
 :::
 
 ::: {.commutative-diagram}
 
-![モノイドの単位律](diagrams/diagram-09.svg){fig-alt="モノイドの単位律" width="401"}
+<figure class="figure" style="display: block; width: max-content; min-width: 100%; margin: 0;">
+<img src="diagrams/diagram-09.svg" class="figure-img" alt="モノイドの単位律" width="401" style="width: 401px; max-width: none; height: auto;">
+<figcaption>モノイドの単位律</figcaption>
+</figure>
 
 :::
 
@@ -547,7 +574,10 @@ $$
 
 ::: {.commutative-diagram}
 
-![テンソル積の普遍性](diagrams/diagram-10.svg){fig-alt="テンソル積の普遍性" width="271"}
+<figure class="figure" style="display: block; width: max-content; min-width: 100%; margin: 0;">
+<img src="diagrams/diagram-10.svg" class="figure-img" alt="テンソル積の普遍性" width="271" style="width: 271px; max-width: none; height: auto;">
+<figcaption>テンソル積の普遍性</figcaption>
+</figure>
 
 :::
 
@@ -609,7 +639,10 @@ $$
 
 ::: {.commutative-diagram}
 
-![モノイダル圏の五角形等式](diagrams/diagram-11.svg){fig-alt="モノイダル圏の五角形等式" width="547"}
+<figure class="figure" style="display: block; width: max-content; min-width: 100%; margin: 0;">
+<img src="diagrams/diagram-11.svg" class="figure-img" alt="モノイダル圏の五角形等式" width="547" style="width: 547px; max-width: none; height: auto;">
+<figcaption>モノイダル圏の五角形等式</figcaption>
+</figure>
 
 :::
 
@@ -621,7 +654,10 @@ $$
 
 ::: {.commutative-diagram}
 
-![モノイダル圏の三角形等式](diagrams/diagram-12.svg){fig-alt="モノイダル圏の三角形等式" width="390"}
+<figure class="figure" style="display: block; width: max-content; min-width: 100%; margin: 0;">
+<img src="diagrams/diagram-12.svg" class="figure-img" alt="モノイダル圏の三角形等式" width="390" style="width: 390px; max-width: none; height: auto;">
+<figcaption>モノイダル圏の三角形等式</figcaption>
+</figure>
 
 :::
 
@@ -652,7 +688,10 @@ $$
 
 ::: {.commutative-diagram}
 
-![モノイド対象の結合律](diagrams/diagram-13.svg){fig-alt="モノイド対象の結合律" width="591"}
+<figure class="figure" style="display: block; width: max-content; min-width: 100%; margin: 0;">
+<img src="diagrams/diagram-13.svg" class="figure-img" alt="モノイド対象の結合律" width="591" style="width: 591px; max-width: none; height: auto;">
+<figcaption>モノイド対象の結合律</figcaption>
+</figure>
 
 :::
 
@@ -662,7 +701,10 @@ $$
 
 ::: {.commutative-diagram}
 
-![モノイド対象の単位律](diagrams/diagram-14.svg){fig-alt="モノイド対象の単位律" width="399"}
+<figure class="figure" style="display: block; width: max-content; min-width: 100%; margin: 0;">
+<img src="diagrams/diagram-14.svg" class="figure-img" alt="モノイド対象の単位律" width="399" style="width: 399px; max-width: none; height: auto;">
+<figcaption>モノイド対象の単位律</figcaption>
+</figure>
 
 :::
 
@@ -696,7 +738,10 @@ $$
 
 ::: {.commutative-diagram}
 
-![モナドの結合律と単位律](diagrams/diagram-15.svg){fig-alt="モナドの結合律と単位律" width="505"}
+<figure class="figure" style="display: block; width: max-content; min-width: 100%; margin: 0;">
+<img src="diagrams/diagram-15.svg" class="figure-img" alt="モナドの結合律と単位律" width="505" style="width: 505px; max-width: none; height: auto;">
+<figcaption>モナドの結合律と単位律</figcaption>
+</figure>
 
 :::
 
